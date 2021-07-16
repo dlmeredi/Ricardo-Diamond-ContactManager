@@ -1,8 +1,10 @@
 import java.nio.file.Path;
 
-public class ContactDirectory {
-    public static Path getPath(String filename){
-        return Path.getfilename;
-    }
 
-}
+// This is where you will search the contact by name
+//public class ContactDirectory {
+//    public static Path getPath(String filename){
+//        return Path.getfilename;
+//    }
+
+//}
