@@ -13,7 +13,6 @@ public class Contacts {
         ContactsList.add("Contact.txt");
         for (int i = 0; i < ContactsList.size(); i++) {
             System.out.println(ContactsList.get(i));
-
         }
         return false;
     }
