@@ -1,0 +1,10 @@
+John Doe | 1234567890
+Jane Smith | 1298121298
+Ricky Martin | 9827398230
+Britney Spears | 8728372387
+Abraham Lincoln | 2309823098
+Barack Obama | 2390823902
+Michelle Obama | 6783712617
+Steven Spielberg | 0912091239
+Lenny Kravitz | 8273827382
+Batman | 9999999999
