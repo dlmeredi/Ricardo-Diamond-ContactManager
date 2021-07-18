@@ -20,9 +20,9 @@ public class DeleteContacts {
 
         for(String line : lines) {
             if(line.equals(userInput)){
-                newList.remove(" ");
+                newList.remove("");
             }
-            newList.add(line);
+            newList.remove( "");
             // Using .remove(index: ) will remove the contact place on the original list
             // Ex. if you put 'index:5' you'll remove the contact on line 5.
         }

@@ -6,8 +6,8 @@ public class ContactsManagerApp {
 
         System.out.println(DisplayContacts.ShowAllContacts());
 //        System.out.println(SearchContacts.searchContact());
-//        System.out.println(AddContacts.addDelete());
-        System.out.println(DeleteContacts.addDelete());
+        System.out.println(AddContacts.addDelete());
+//        System.out.println(DeleteContacts.addDelete());
 
     }
 
