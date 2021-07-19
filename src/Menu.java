@@ -18,16 +18,22 @@ public class Menu {
         switch (userInput) {
             case "1":
                 DisplayContacts.ShowAllContacts();
+                Menu.Menu();
+                //brings the user back to the menu each time
             case "2":
                 SearchContacts.searchContact();
+                Menu.Menu();
             case "3":
                 AddContacts.add();
+                Menu.Menu();
             case "4":
                 DeleteContacts.Delete();
+                Menu.Menu();
             case "5":
                 Menu.Menu();
             default:
                 System.out.println( "Invalid input");
         }
+
     }
 }
