@@ -10,15 +10,18 @@ import java.util.Scanner;
 public class AddContacts {
 
     // this is where the user will add and delete contacts
-    public static boolean addDelete() throws IOException {
+    public static boolean add() throws IOException {
 
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter name: ");
         String userInput = scanner.next();
-
+        System.out.println("Enter number: ");
+        String number = scanner.nextLine();
+        Contact newContact = new Contact(userInput, number);
         List<String> SearchContacts = Files.readAllLines(Paths.get("src", "Contacts.txt"));
 
         Files.write(
-                Paths.get("src", "Contacts.txt"), Arrays.asList(userInput),
+                Paths.get("src", "Contacts.txt"), Arrays.asList(userInput + " | " + number),
                 StandardOpenOption.APPEND
         );
 
