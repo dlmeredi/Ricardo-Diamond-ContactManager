@@ -26,10 +26,7 @@ public class AddContacts {
         Files.write(
                 Paths.get("src", "Contacts.txt"), Arrays.asList(firstName + " " + lastName + " | " + number),
                 StandardOpenOption.APPEND
-
         );
-
-
         return false;
     }
 }
