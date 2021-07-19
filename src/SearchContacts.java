@@ -25,7 +25,7 @@ public class SearchContacts {
             }
         }
 
-return false;
+        return false;
         // we will change the return false later, don't leave this in here!!
     }
 

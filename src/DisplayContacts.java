@@ -11,13 +11,10 @@ public class DisplayContacts {
         Path paths = Paths.get("src", "Contacts.txt");
         List<String> ContactsList = Files.readAllLines(paths);
         ContactsList.add("Contact.txt");
-        for (int i = 0; i < ContactsList.size(); i++) {
-            System.out.println(ContactsList.get(i));
+        for (String s : ContactsList) {
+            System.out.println(s);
         }
         return false;
     }
-
-
-
 }
 
