@@ -1,10 +1,10 @@
-John Doe | 1234567890
 Ricky Martin | 9827398230
 Britney Spears | 8728372387
 Abraham Lincoln | 2309823098
 Barack Obama | 2390823902
-Michelle Obama | 6783712617
-Steven Spielberg | 0912091239
-Lenny Kravitz | 8273827382
-B
-Fred |  Flinstone 2039230923
+Cher JOnes | 2938239230
+John Doe | 23982392832
+Jane Doe | 2345678903
+Michael Jordan | (234) 567-8903
+Bugs Bunny | (123) 456-7890
+hello world | (123) 456-7890
