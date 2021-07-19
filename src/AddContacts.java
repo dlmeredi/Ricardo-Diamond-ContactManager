@@ -29,15 +29,4 @@ public class AddContacts {
 
         return false;
     }
-
-//    public static List<String>CreateContact(){
-//        Scanner scanner = new Scanner(System.in);
-//        String userInput = scanner.next();
-//        List<String> createNewContact = new ArrayList<>();
-//        System.out.println("Please create a new contact: ");
-//        createNewContact.add(userInput);
-//
-//        return createNewContact;
-//    }
-
 }
