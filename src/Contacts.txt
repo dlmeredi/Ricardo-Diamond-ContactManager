@@ -1,3 +1,5 @@
+   Name      | Phone Number
+--------------------------
 Ricky Martin | 9827398230
 Britney Spears | 8728372387
 Abraham Lincoln | 2309823098
@@ -8,3 +10,5 @@ Jane Doe | 2345678903
 Michael Jordan | (234) 567-8903
 Bugs Bunny | (123) 456-7890
 hello world | (123) 456-7890
+john smith | (333) 333-4567
+hello there | (123) 234-4567

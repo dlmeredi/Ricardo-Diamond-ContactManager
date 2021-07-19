@@ -24,9 +24,7 @@ public class SearchContacts {
                 System.out.println(SearchContact);
             }
         }
-
         return false;
-        // we will change the return false later, don't leave this in here!!
     }
 
 
