@@ -10,25 +10,31 @@ import java.util.Scanner;
 public class DeleteContacts {
 
     // this is where the user will add and delete contacts
-    public static boolean addDelete() throws IOException {
+    public static boolean Delete() throws IOException {
 
         Scanner scanner = new Scanner(System.in);
-        String userInput = scanner.next();
+        System.out.println("Which contact do you want to delete?");
+        String userInput = scanner.nextLine();
 
         List<String> lines = Files.readAllLines(Paths.get("src","Contacts.txt"));
         List<String> newList = new ArrayList<>();
 
         for(String line : lines) {
-            if(line.equals(userInput)){
-                newList.remove("");
+            if(line.contains(userInput)){
+                newList.remove(userInput);
+                continue;
+            } else if(line.isEmpty()){
+                System.out.println("invalid input");
+                Delete();
             }
-            newList.remove( "");
+            newList.add(line);
+            Files.write(Paths.get("src","Contacts.txt"),newList);
             // Using .remove(index: ) will remove the contact place on the original list
             // Ex. if you put 'index:5' you'll remove the contact on line 5.
         }
-        Files.write(Paths.get("src","Contacts.txt"),newList);
 
-        //will continue this after we create functionality for search contacts!
+
+
 
         return false;
     }
